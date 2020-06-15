@@ -20,5 +20,6 @@ git clone git@github.com:tpope/vim-fugitive.git
 git clone https://github.com/lervag/vimtex
 
 echo "Downloading vimrc..."
-
+curl -LSso ~/.vimrc \
+    https://raw.githubusercontent.com/agmariona/vim/master/.vimrc
 echo "Done."
